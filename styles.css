@@ -1,0 +1,39 @@
+body{
+  background-color: #E1E8AD;
+}
+
+.borderexample {
+ outline-style: solid;
+ outline-color: red;
+ outline-width: 5px;
+ font-size: 150%;
+ font-family: cursive;
+ outline-offset: 6px;
+ background-color: #D3E076;
+ outline-color:  white;
+}
+
+h1{
+  border-width: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  background-color: #545C19;
+  font-size: 300%;
+  font-family:Gadget;
+  color: white;
+  border-color: #545C19;
+}
+
+.videostyle{
+  text-align: center;
+}
+
+.botton{
+  background-color: #67721C;
+  color:black;
+  border: 5px dashed green;
+  text-align: center;
+  position: relative;
+  right: 200px;
+
+}
