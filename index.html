@@ -18,18 +18,27 @@
       multiple performers.</p1>
       <br> <br>
 
-      <h2 style="color:black;font-size:200%;">My favorite crosstalkers:<br> <p2 style="font-size:100%;color:darkgreen;">
-        Zhang YunLei & Yang JiuLang</p2></h2>
+      <h2 style="color:black;font-size:200%;">My favorite crosstalkers:<br> <p2 style="font-size:100%;color:darkgreen;">Zhang YunLei & Yang JiuLang</p2></h2>
     <img src="https://alalaentertainment.co.nz/wp-content/uploads/2019/05/dys_zyl_2019_auckland3.png" alt="">
-      <br>
-      <br>
-      <br>
-      <h3 style="color:green;font-size:200%; ">This is a video below but I turned the autoplay off</h3>
-      <!--these lines of code are for video there's a autoplay function but I want to write a play/pause button-->
+    <p><noscript>
+    </noscript></p>
+    <div>
+      <button class=".button" onclick="playPause()">Play/Pause</button>
       <video id="v1" width="700" height="700" >
         <source src="examplecrosstalk.mp4" type="video/mp4">
         <source src="movie.ogg" type="video/ogg">
         Your browser does not support the video tag.
       </video>
+
+    </div>
+    <script type="text/javascript">
+      var my_v = document.getElementById('v1');
+      function playPause(){
+        if (my_v.paused)
+          my_v.play();
+        else
+          my_v.pause();
+        }
+    </script>
   </body>
 </html>
